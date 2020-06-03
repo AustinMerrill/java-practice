@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.money{
+    width:400px;
+    margin-top:20px;
+}
+input{
+    display:block;
+    width:200px;
+}
+input:nth-of-type(3){
+    display:inline;
+    width:50px;
+    font-size:8px;
+    color: green;
+    background-color: yellow;
+    border:none;
+}
+.nav{
+  display:flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  background:orange;
+  padding:20px;
+  
+
+}
